@@ -2,5 +2,5 @@ services:
   image-classifier:
     image: rajarshi29/pneumonia-classifier:compat  # Replace with your image name and tag
     volumes:
-      - /temp/xray_images:/app/input
-      - /temp:/app/output
+      - /tmp/inputdata:/app/input
+      - /tmp/output:/app/output
