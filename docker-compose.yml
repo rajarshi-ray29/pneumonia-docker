@@ -1,5 +1,3 @@
-version: '3.8'  # Specify the Compose file version
-
 services:
   image-classifier:
     image: rajarshi29/pneumonia-classifier:compat  # Replace with your image name and tag
